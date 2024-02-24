@@ -6,7 +6,7 @@ class Game:
 
     # game setup
     pygame.init()
-    self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOM_HEIGHT))
+    self.display_surface = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
     pygame.display.set_caption('Flappy Bird')
     self.clock = pygame.time.Clock()
 
